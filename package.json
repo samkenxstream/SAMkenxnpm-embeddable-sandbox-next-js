@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/explorer": "https://pkg.csb.dev/apollographql/embeddable-explorer/commit/1ae7a23d/@apollo/explorer",
     "@next/font": "13.0.7",
     "@types/node": "18.11.17",
     "@types/react": "18.0.26",
@@ -18,6 +19,7 @@
     "next": "13.0.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "4.9.4"
+    "typescript": "4.9.4",
+    "use-deep-compare-effect": "^1.8.1"
   }
 }
