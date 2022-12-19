@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
-import { ApolloExplorer } from "@apollo/explorer/react";
+import { ApolloSandbox } from "@apollo/sandbox/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,9 +16,9 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <ApolloExplorer
+          <ApolloSandbox
             graphRef="Apollo-Fullstack-Demo-o3tsz8@current"
-            className={styles.embeddedExplorer}
+            className={styles.embeddedSandbox}
           />
         </div>
       </main>

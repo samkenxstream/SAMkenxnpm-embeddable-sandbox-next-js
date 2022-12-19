@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@apollo/explorer": "https://pkg.csb.dev/apollographql/embeddable-explorer/commit/1ae7a23d/@apollo/explorer",
+    "@apollo/sandbox": "^1.0.3",
     "@next/font": "13.0.7",
     "@types/node": "18.11.17",
     "@types/react": "18.0.26",
